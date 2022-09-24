@@ -162,3 +162,9 @@ a {
 .detail-right-section {
     font-size: 1rem;
 }
+
+@media (max-width: 674px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
