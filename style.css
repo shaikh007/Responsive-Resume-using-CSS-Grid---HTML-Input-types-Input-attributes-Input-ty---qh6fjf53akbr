@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,4 +6,153 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 /* Write CSS code below */
+
+.main-content {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
+.left-section {
+    background-color: rgb(34, 37, 47);
+}
+
+.right-section {
+    background-color: rgb(245, 238, 236);
+}
+
+.left-content {
+    padding: 1rem;
+}
+
+.profile-picture {
+    width: 60%;
+    border: 5px solid #fff;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+}
+
+.designation {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+
+.description {
+    color: #fff;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.8rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-details {
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.contact-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+}
+
+.icon {
+    margin: 0 0.5rem;
+}
+
+.email,
+.telephone,
+.address {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.progress-bar {
+    height: 4px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 50%;
+}
+
+.progress-css {
+    width: 70%;
+}
+
+.progress-js {
+    width: 80%;
+}
+
+.progress-java {
+    width: 60%;
+}
+
+.skill {
+    margin-bottom: 1rem;
+}
+
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.education-detail {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.about-me-section {
+    margin-bottom: 2rem;
+}
+
+.detail-left-section {
+    margin-right: 4rem;
+}
+
+.detail-right-section {
+    font-size: 1rem;
+}
