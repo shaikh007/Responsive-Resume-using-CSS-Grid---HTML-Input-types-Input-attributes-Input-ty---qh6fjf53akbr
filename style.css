@@ -10,17 +10,21 @@
 /* Write CSS code below */
 
 .main-content {
-    height: 1000px;
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 300px 700px;
 }
 
 .left-section {
-    background-color: rgb(34, 37, 47);
+    grid-column: span 1;
+    background-color: #242521;
 }
 
 .right-section {
-    background-color: rgb(245, 238, 236);
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
 }
 
 .left-content {
